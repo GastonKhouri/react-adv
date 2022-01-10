@@ -24,18 +24,6 @@ const useShoppingCart = () => {
             const { [ product.id ]: toDelete, ...rest } = prev;
             return rest;
 
-            // Control desde useProduct
-
-            // if ( count === 0 ) 
-            //     const { [ product.id ]: toDelete, ...rest } = prev;
-            //     return rest;
-            // }
-
-            // return {
-            //     ...prev,
-            //     [ product.id ]: { ...product, count }
-            // };
-
         } );
 
     };
